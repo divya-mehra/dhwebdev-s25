@@ -1,0 +1,15 @@
+body {
+    max-width: 1000px;
+    margin: 4em auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+}
+
+.wrapper > * {
+    aspect-ratio: 1/1;
+    border: 1px black solid;
+}

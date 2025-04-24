@@ -1,0 +1,40 @@
+body {
+  font-size: 2em;
+}
+
+header {
+  top: 5px;
+  position: sticky;
+  display: flex;
+  height: 30px;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+img {
+  height: 30px;
+}
+
+header > input {
+  width: 300px;
+}
+
+aside {
+  display: none;
+  background-color: rgb(251, 214, 1);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 33%;
+  padding: 10px 40px;
+}
+
+.author, .bookshelf {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.7em;
+}
+
+.bookshelf {
+  text-transform: uppercase;
+}
